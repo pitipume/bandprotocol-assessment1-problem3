@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Pitipume\\Documents\\Coding\\CodingTest\\BandProtocol\\bandprotocol-assessment1-problem3\\TransactionBroadcast\\TransactionBroadcast\\TransactionBroadcast.csproj": {}
+    "C:\\Users\\Pitipume\\Documents\\Coding\\CodingTest\\BandProtocol\\bandprotocol-assessment1-problem3\\TransactionBroadcastAPI\\TransactionBroadcastAPI\\TransactionBroadcastAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Pitipume\\Documents\\Coding\\CodingTest\\BandProtocol\\bandprotocol-assessment1-problem3\\TransactionBroadcast\\TransactionBroadcast\\TransactionBroadcast.csproj": {
+    "C:\\Users\\Pitipume\\Documents\\Coding\\CodingTest\\BandProtocol\\bandprotocol-assessment1-problem3\\TransactionBroadcastAPI\\TransactionBroadcastAPI\\TransactionBroadcastAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Pitipume\\Documents\\Coding\\CodingTest\\BandProtocol\\bandprotocol-assessment1-problem3\\TransactionBroadcast\\TransactionBroadcast\\TransactionBroadcast.csproj",
-        "projectName": "TransactionBroadcast",
-        "projectPath": "C:\\Users\\Pitipume\\Documents\\Coding\\CodingTest\\BandProtocol\\bandprotocol-assessment1-problem3\\TransactionBroadcast\\TransactionBroadcast\\TransactionBroadcast.csproj",
+        "projectUniqueName": "C:\\Users\\Pitipume\\Documents\\Coding\\CodingTest\\BandProtocol\\bandprotocol-assessment1-problem3\\TransactionBroadcastAPI\\TransactionBroadcastAPI\\TransactionBroadcastAPI.csproj",
+        "projectName": "TransactionBroadcastAPI",
+        "projectPath": "C:\\Users\\Pitipume\\Documents\\Coding\\CodingTest\\BandProtocol\\bandprotocol-assessment1-problem3\\TransactionBroadcastAPI\\TransactionBroadcastAPI\\TransactionBroadcastAPI.csproj",
         "packagesPath": "C:\\Users\\Pitipume\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Pitipume\\Documents\\Coding\\CodingTest\\BandProtocol\\bandprotocol-assessment1-problem3\\TransactionBroadcast\\TransactionBroadcast\\obj\\",
+        "outputPath": "C:\\Users\\Pitipume\\Documents\\Coding\\CodingTest\\BandProtocol\\bandprotocol-assessment1-problem3\\TransactionBroadcastAPI\\TransactionBroadcastAPI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Pitipume\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -40,6 +40,16 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[7.0.20, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -52,6 +62,9 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
