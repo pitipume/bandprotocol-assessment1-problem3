@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "Weg0F5MXK3fIHV95Nyf+gq4x5uhosrqPNofF1yAGE+s=",
+  "Source": "TransactionBroadcastAPI",
+  "BasePath": "_content/TransactionBroadcastAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
