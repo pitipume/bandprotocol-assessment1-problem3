@@ -12,12 +12,6 @@ builder.Services.AddSwaggerGen();
 // Register HttpClient and TransactionService
 builder.Services.AddHttpClient<ITransactionService, TransactionService>();
 builder.Services.AddScoped<TransactionService>();
-//builder.Services.AddLogging(config =>
-//{
-//    config.AddConsole();
-//    config.AddDebug();
-//});
-
 
 var app = builder.Build();
 
