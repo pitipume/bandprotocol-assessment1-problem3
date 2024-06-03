@@ -2,6 +2,6 @@
 {
     public class TransactionStatusReponse
     {
-        public string? tx_hash { get; set; }
+        public string? tx_status { get; set; }
     }
 }

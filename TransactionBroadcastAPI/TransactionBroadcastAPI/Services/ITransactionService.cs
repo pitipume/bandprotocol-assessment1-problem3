@@ -5,6 +5,6 @@ namespace TransactionBroadcastAPI.Services
     public interface ITransactionService
     {
         Task<TransactionResponse> BroadcastTransactionAsync(TransactionRequest transactionRequest);
-        Task<TransactionStatusReponse> CheckTransactionStatusAsync(string tx_hash);
+        Task<TransactionStatusReponse> CheckTransactionStatusAsync(string tx_status);
     }
 }
