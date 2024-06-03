@@ -5,7 +5,7 @@ using TransactionBroadcastAPI.Services;
 namespace TransactionBroadcastAPI.Controllers
 {
     [ApiController]
-    [Route("[controller]")]
+    [Route("")] // Leave this field blank to ensure that the Http Methods are corrected related to the assessment requirement
     public class TransactionController : ControllerBase
     {
         private readonly ITransactionService _transactionService;
